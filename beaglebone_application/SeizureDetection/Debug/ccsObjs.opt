@@ -1,0 +1,1 @@
+"./FIR.o" "./main.o" "./board/SPI.o" "./board/adc.o" "./board/board.o" -Wl,-T"../AM3359.lds" -Wl,--start-group -l"c" -lsystem_config -ldrivers -lplatform -lmmcsd -lutils -lm -l"gcc" -lrdimon -Wl,--end-group 
